@@ -9,14 +9,30 @@
         <module name="api" />
         <module name="consumer" />
         <module name="eureka" />
+        <module name="eureka2" />
+        <module name="eureka3" />
         <module name="provider" />
+        <module name="provider3" />
+        <module name="provider3 (1)" />
+      </profile>
+      <profile name="Annotation profile for cloud" enabled="true">
+        <sourceOutputDir name="../provider2/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../provider2/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="provider3 (2)" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="api" target="1.5" />
       <module name="consumer" target="1.5" />
       <module name="eureka" target="1.5" />
+      <module name="eureka2" target="1.5" />
+      <module name="eureka3" target="1.5" />
       <module name="provider" target="1.5" />
+      <module name="provider2" target="1.5" />
+      <module name="provider3" target="1.5" />
+      <module name="provider3 (1)" target="1.5" />
+      <module name="provider3 (2)" target="1.5" />
       <module name="springcloud" target="1.5" />
     </bytecodeTargetLevel>
   </component>

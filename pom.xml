@@ -10,9 +10,12 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>provider</module>
+        <module>provider3</module>
         <module>api</module>
         <module>consumer</module>
         <module>eureka</module>
+        <module>eureka2</module>
+        <module>eureka3</module>
     </modules>
 
     <properties>

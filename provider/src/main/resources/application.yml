@@ -18,7 +18,7 @@ eureka:
     instance-id: rxy-springcloud-provider01
   client:
     service-url:
-      defaultZone: http://localhost:7001/eureka/
+      defaultZone: http://eureka7001.com:7001/eureka/,http://eureka7002.com:7002/eureka/,http://eureka7003.com:7003/eureka/
 info:
   app.name: provider01-port7001
   app.age: 12
