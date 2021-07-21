@@ -12,7 +12,6 @@
         <module name="eureka2" />
         <module name="eureka3" />
         <module name="provider" />
-        <module name="provider3" />
         <module name="provider3 (1)" />
       </profile>
       <profile name="Annotation profile for cloud" enabled="true">
