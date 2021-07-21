@@ -26,6 +26,11 @@ public class FrontDeptController {
         String s = restTemplate.postForObject(url + "/dept/list", null, String.class);
         return s;
     }
+    @GetMapping("who")
+    public String who(){
+        String s = restTemplate.postForObject(url + "/dept/who", null, String.class);
+        return s;
+    }
 
 
 }
