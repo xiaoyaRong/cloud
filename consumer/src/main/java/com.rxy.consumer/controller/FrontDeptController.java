@@ -14,9 +14,11 @@ public class FrontDeptController {
     @Autowired
     private RestTemplate restTemplate;
 
+   private static final String url = "http://localhost:8001/";
+
     @GetMapping("list")
     public String list(){
-        String s = restTemplate.postForObject("http://localhost:8001/dept/list", null, String.class);
+        String s = restTemplate.postForObject(url + "dept/list", null, String.class);
         return s;
     }
 
