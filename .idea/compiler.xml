@@ -11,6 +11,7 @@
         <module name="eureka" />
         <module name="eureka2" />
         <module name="eureka3" />
+        <module name="feign" />
         <module name="provider" />
         <module name="provider2" />
         <module name="provider3" />
@@ -29,6 +30,7 @@
       <module name="eureka" target="1.5" />
       <module name="eureka2" target="1.5" />
       <module name="eureka3" target="1.5" />
+      <module name="feign" target="1.5" />
       <module name="provider" target="1.5" />
       <module name="provider2" target="1.5" />
       <module name="provider3" target="1.5" />

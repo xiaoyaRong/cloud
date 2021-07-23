@@ -17,6 +17,7 @@
         <module>eureka3</module>
         <module>provider2</module>
         <module>provider3</module>
+        <module>feign</module>
     </modules>
 
     <properties>
