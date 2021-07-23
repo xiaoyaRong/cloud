@@ -10,4 +10,6 @@ springCloud 生态
   注意：服务（provider）需要向所有eureka集群中注册，因为eureka集群是地位同等的，没有主从之说
        多个服务需要名称相同，因为eureka集群形式，消费者需要通过服务名称（application:name）去
           访问提供者
+4.自定义负载均衡算法 MyLoadBalanceRule
+  注意不可放在springboot启动类的上下文中 然后在修改项目启动注入的负载均衡算法bean
 

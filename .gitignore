@@ -1,0 +1,52 @@
+# Compiled class file
+*.class
+
+# Log file
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+*.iml
+.idea
+target/
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+/logs/
+/zd-api/db/address_library.sql
+/zd-admin-antd/files/
+**/.DS_Store
+dump.rdb
+zd-api/src/main/resources/data.json
+zd-api/db/sqlResult_2302017.sql
+!/lib/xom-1.2.5.jar
+zd-device-provider/zd-parkinglock-provider/logs/
+zd-device-provider/zd-parkinglock-provider/src/test/
+/classes/
+poms/pom.xml
+zd-central-platform/frontend/deploy_start.sh
+/zd-central-platform/logs/
+zd-central-platform/frontend/all_logs.sh
+zd-central-platform/frontend/deploy.sh
+zd-dubbo-statistics-provider/smartmotion/deploy.sh
+pda-device-log/log_restart.sh
+.mvn/wrapper/maven-wrapper.jar
+.mvn/wrapper/maven-wrapper.properties
+.mvn/wrapper/MavenWrapperDownloader.java
+pda-device-log/log_restart.sh
+pda-device-log/src/main/resources/templates/logback.xml
+zd-dubbo-statistics-provider/smartmotion/yarn.lock
+.classpath
+.project
+.settings
+.factorypath
+target

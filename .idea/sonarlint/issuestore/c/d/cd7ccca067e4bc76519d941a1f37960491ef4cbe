@@ -1,3 +1,5 @@
 
 ð
 java:S1598"ÔThis file "ConsumerApplication.java" should be located in "com/rxy/consumer" directory, not in "/Users/rongxiaoya/projects/springcloud/consumer/src/main/java/com.rxy.consumer"(Do not use dots in directory names).(ì…¹‚ûÿÿÿÿ
+t
+java:S1128"RRemove this unused import 'org.springframework.cloud.netflix.ribbon.RibbonClient'.(âèª…øÿÿÿÿ8ß¨ö¶¬/
