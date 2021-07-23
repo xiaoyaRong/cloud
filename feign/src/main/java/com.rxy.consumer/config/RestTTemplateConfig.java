@@ -17,10 +17,10 @@ public class RestTTemplateConfig {
         return builder.build();
     }
 
-    @Bean
-    public IRule myRule(){
-        return new RandomRule();
-    }
+    //@Bean
+    //public IRule myRule(){
+    //    return new RandomRule();
+    //}
 
 
 

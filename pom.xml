@@ -18,6 +18,7 @@
         <module>provider2</module>
         <module>provider3</module>
         <module>feign</module>
+        <module>HystrixProvider</module>
     </modules>
 
     <properties>

@@ -2,6 +2,7 @@ package com.rxy.service;
 
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.stereotype.Component;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @Component
@@ -11,8 +12,8 @@ public interface DeptFeignService {
     @RequestMapping("dept/list")
     String list();
 
-    @RequestMapping("dept/one")
-    String getList(Integer id);
+    @RequestMapping("dept/one/{id}")
+    String getOne(@PathVariable("id")Integer id);
 
     @RequestMapping("dept/who")
     String who();

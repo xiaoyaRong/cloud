@@ -23,5 +23,10 @@ springCloud 生态
   然后DeptFeignService每个方法@RequestMapping("")指定提供服务的项目的controller方法上的mapping
   在consumer调用时只需要autowire-feign的接口类，调用内部的方法即可
   
+6.hystrix 服务熔断断机制
+  引入hystrix的jar包 
+  springboot启动类增加熔断器的注解 @EnableCircuitBreaker //打开熔断器
+  需要熔断的某个方法上加入 @HystrixCommand(fallbackMethod = "hystrixGetOne") 指定当前方法出问题后调用哪个方法
+  
    
 

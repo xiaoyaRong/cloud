@@ -5,6 +5,7 @@ import com.netflix.discovery.converters.Auto;
 import com.rxy.service.DeptFeignService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.client.RestTemplate;
@@ -36,6 +37,12 @@ public class FrontDeptController {
     @GetMapping("who")
     public String who(){
         String s = deptFeignService.who();
+        //String s = restTemplate.postForObject(url + "/dept/who", null, String.class);
+        return s;
+    }
+    @GetMapping("one/{id}")
+    public String who(@PathVariable("id") Integer id){
+        String s = deptFeignService.getOne(id);
         //String s = restTemplate.postForObject(url + "/dept/who", null, String.class);
         return s;
     }
